@@ -165,25 +165,9 @@ python scraper.py
 * Asynchronous fetching boosts performance
 * Suitable for small to medium-scale news aggregation tasks
 
-### Security
-
-* Includes basic error handling for timeouts and failed fetches
-* Does not scrape JavaScript-heavy sites that require rendering
-
----
-
-## Future Enhancements
-
-* [ ] Add support for more RSS feeds and categories
-* [ ] Save to database (SQLite, MongoDB, etc.)
-* [ ] Schedule scraping via cron or background task manager
-* [ ] Integrate simple web UI with Streamlit
-* [ ] Language detection and filtering
-
----
 
 ## License
 
-Apache 2.0 License – feel free to use, modify, and distribute this project.
+Apache 2.0 License
 
 ---
